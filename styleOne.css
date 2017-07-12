@@ -102,6 +102,9 @@ p{
 	font-family:  sans-serif;
 	padding-top: 5px;
 	color: white; }
+th {
+	padding-right: 8px;
+}
 .home{  
 	padding: 20px 18px;
   	font-size: 18px;
@@ -180,6 +183,25 @@ p{
 }
 .circle{
 	border-radius: 50%;
+}
+.circle.joPic{
+	position: relative;
+	bottom: 10px;
+	left: 10px;
+}
+.joHeader{
+	font-family: cursive, sans-serif;
+	color: white;
+	position: relative;
+	left: 15px;
+}
+.joLink{
+	align-self: right;
+	width: 60px;
+	height: 60px;
+}
+.malLinkText{
+	max-width: 100px;
 }
 div.one {
 	position: fixed;
