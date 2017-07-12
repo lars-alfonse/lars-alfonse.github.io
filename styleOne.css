@@ -178,6 +178,9 @@ p{
 	padding: none;
 	margin: none;
 }
+.circle{
+	border-radius: 50%;
+}
 div.one {
 	position: fixed;
 	float: right;
