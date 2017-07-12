@@ -1,0 +1,9 @@
+body {
+	background-color: rgb(150, 220, 240)
+}
+.boldClass {		
+	font-weight: bold;
+}
+#bigID {
+	font-size: 24px;
+}

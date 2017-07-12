@@ -1,0 +1,255 @@
+body {
+	background-color: #004d4d;
+}
+body.contact1 {
+    background: linear-gradient(to right, white 0%, white 5%, #004d4d 5%, #004d4d 95%, white 95%, white 100%);
+		}
+header {
+	width: 100%;
+	height: 80px;
+	background-color: #99ffeb;
+	padding-right: 25px;
+}
+@media (max-width: 433px) {
+	#headerButtons{
+		width: 400px;
+		margin: none
+		padding:none;
+	}
+	button.home{
+		padding:none;
+		float: left;
+		position: relative;
+		right:30px;
+	}
+}
+@media (max-width: 554px) {
+	header{
+		height: 150px;
+	}
+	#headerButtons{
+		position: relative;
+		top: 30px;
+		right:25px;
+		padding-left: 0px;
+		margin-left: 0px;
+		align-self: left;
+
+
+	}
+	#gifBox{
+		width: : 50%;
+	}
+}
+@media (max-width:670px){
+	#gifBox{
+		padding-top: 33%;
+	}
+}
+@media (min-width: 973px){
+	#gifBox {
+		padding-top: 100%;
+	}
+}
+.topside{
+	padding-left: 10px;
+	font-family: Bookman, Garamond;
+	color: #004d4d;
+	display: inline; 
+	position: relative; 
+	left: 10px; top: 25px; 
+}
+.artHeading{
+	padding-left: 10px;
+	color: #a6a6a6;
+}
+.artHeadingBackground {
+	background: linear-gradient(to right, #99ffeb 0%, #004d4d 100%,);
+}
+.artHeadingBackgroundCentered {
+	background: linear-gradient(to right,#004d4d 0%, #99ffeb 50%, #004d4d 100%,);
+}
+ul.header { 
+	font-size: 12px;
+	position: relative;
+		bottom: 25px;
+	text-align: right;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.sideBar{
+	display: block;
+	align-self: right;
+	position: relative;
+	top: 25px;
+	right: 20px;
+}
+li.header {
+	position: relative;
+	left: 15px;
+	display: inline;
+	padding: 0px;
+
+}
+li.sideBarLink{
+	display: block;
+	float: right;
+	position: relative;
+	bottom: 20px;
+}
+p{ 
+	font-family:  sans-serif;
+	padding-top: 5px;
+	color: white; }
+.home{  
+	padding: 20px 18px;
+  	font-size: 18px;
+  	text-align: center;
+  	cursor: pointer;
+  	outline: none;
+  	color: #001a1a;
+  	background-color: #99ffeb;
+ 	border: none;
+  	border-radius: 2px;
+}
+.iWantToHelp{
+	padding: 20px 18px;
+  	font-size: 18px;
+  	text-align: center;
+  	cursor: pointer;
+  	outline: none;
+  	color: #001a1a;
+  	background-color: #99ffeb;
+ 	border: none;
+  	border-radius: 2px;
+}
+.sideBarBtn{  
+	padding: 10px 10px;
+  	font-size: 16px;
+  	text-align: right;
+  	cursor: pointer;
+  	outline: none;
+  	color: #001a1a;
+  	background-color: #99ffeb;
+ 	 border: none;
+  	border-radius: 0px;
+  	width: 100px;
+  }
+.submit{
+	padding: 10px 9px;
+  	font-size: 18px;
+  	text-align: left;
+  	cursor: pointer;
+  	outline: none;
+  	color: #001a1a;
+  	background-color: #99ffeb;
+ 	 border: none;
+  	border-radius: 4px;
+
+}
+.butt{
+	width: 300px;
+	height: 300px;
+	display: inline;
+	float: left;
+}
+.hide{
+	display: none;
+
+}
+.images{
+	-webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+	
+}
+.try {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+.round{
+	border-radius: 5px;
+	padding: none;
+	margin: none;
+}
+div.one {
+	position: fixed;
+	float: right;
+    width: 1px;
+    height: 800px;
+    background: #004d4d;
+  
+    transition: width 2s;
+}
+div.two {
+	z-index: 99 !important;
+	position: fixed;
+	align-self: left;
+    width: 10px;
+    height: 800px;
+    background:  none;
+
+    transition: width 2s;
+}
+div.three{
+	float: top;
+	position: fixed;
+	bottom: 0px;
+    width: 100%;
+    height: 100px;
+    background: #99ffeb;
+    transition: height 2s;
+}
+
+div.one:hover {
+    width: 478px;
+}
+div.two:hover {
+    width: 5%;
+}
+div.three:hover {
+	height: 60%;
+}
+.contactForm {
+	margin-left: 30%;
+	margin-right: 30%;
+	border-style: none;
+	background-color: #004d4d;
+}
+.butt:hover .butt2 {
+
+	display: inline-block;
+
+}
+.butt2{
+	display:none;
+}
+.home:hover{
+	background-color: #00b3b3;
+}
+.submit:hover{
+	background-color: #00b3b3;
+}
+.submit:hover:after{
+	background-color: #00b3b3;
+}
+.button:active {
+  background-color: #00b3b3;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+td {
+	padding-left: 5px;
+	color: white;
+}
+h3.central {
+	float: top;
+	color:#00b3b3;
+	text-shadow: 2px 2px #003333;}
