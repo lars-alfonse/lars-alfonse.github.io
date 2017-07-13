@@ -6,6 +6,18 @@
 body {
 	background-color: #004d4d;
 }
+a{
+	color: #ff8000;
+}
+.foot{
+	padding-bottom: 5px;
+	background-color:#99ffeb; 
+	width: 100%;
+	position: fixed;
+	left: 0;
+	bottom: 0px;
+	height: 25px;
+}
 body.contact1 {
     background: linear-gradient(to right, white 0%, white 5%, #004d4d 5%, #004d4d 95%, white 95%, white 100%);
 		}
