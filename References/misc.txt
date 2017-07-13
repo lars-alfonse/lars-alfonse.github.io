@@ -1,0 +1,9 @@
+<aside align="center" >
+	<p><img class="try" style="position: relative; left: 100px; display: inline-block;" src="images/goku.jpg"></p>
+	<p>this is a paragraph that <em><strong>I </em></strong> am testing.</p>
+	<p>This is the page with the things that smoosh the text.<br> You shouldnt smoosh things its not nice. <br> Please dont kill me I've got so much to give.</p>
+		<br>
+	<p>I</p>
+	<p>love</p>	
+	<p>pancakes</p>
+</aside>

@@ -51,6 +51,14 @@ header {
 		padding-top: 100%;
 	}
 }
+#laavka{
+	max-width: 700px;
+}
+@media if (min-width: 1200px){
+	#laavka{
+		width: 300px;
+	}
+}
 .topside{
 	padding-left: 10px;
 	font-family: Bookman, Garamond;
